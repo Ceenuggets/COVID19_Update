@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83b1d30-2d24-4272-abc1-0fc50f9866d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/new_cases_line_chart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Africa/CentralAfrica/CentralAfricaNewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Africa/CentralAfrica/CentralAfricaNewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Africa/EastAfrica/EastAfricaNewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Africa/EastAfrica/EastAfricaNewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Africa/NorthAfrica/NorthAfricaNewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Africa/NorthAfrica/NorthAfricaNewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Africa/SouthernAfrica/SouthAfricaNewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Africa/SouthernAfrica/SouthAfricaNewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Africa/WestAfrica/WestAfricaNewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Africa/WestAfrica/WestAfricaNewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DayReport/COVID19DailyReport.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DayReport/COVID19DailyReport.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/ActiveCases/ActiveCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/ActiveCases/ActiveCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/DeathsPer1MPopulation/DeathsPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/DeathsPer1MPopulation/DeathsPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/LastNewCaseReport/LastNewCaseReport.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/LastNewCaseReport/LastNewCaseReport.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/NewCases/DailyCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/NewCases/DailyCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/NewDeaths/NewDeaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/NewDeaths/NewDeaths.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/SeriousCritical/SeriousCritical.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/SeriousCritical/SeriousCritical.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TestsPer1MPopulation/TestsPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TestsPer1MPopulation/TestsPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TotalCases/TotalCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TotalCases/TotalCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TotalCasesPer1MPopulation/TotalCasesPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TotalCasesPer1MPopulation/TotalCasesPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TotalDeaths/TotalDeaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TotalDeaths/TotalDeaths.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TotalRecovered/TotalRecovered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TotalRecovered/TotalRecovered.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/TotalTests/TotalTests.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/TotalTests/TotalTests.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/Africa/Africa_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/Africa/Africa_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/Asia/Asia_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/Asia/Asia_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/Europe/Europe_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/Europe/Europe_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/NorthAmerica/NorthAmerica_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/NorthAmerica/NorthAmerica_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/Oceania/Oceania_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/Oceania/Oceania_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/Other/Other_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/Other/Other_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World/WorldSummary/SouthAmerica/SouthAmerica_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World/WorldSummary/SouthAmerica/SouthAmerica_summary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/ActiveCases/ActiveCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/ActiveCases/ActiveCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/ActiveCasesPer1MPopulation/ActiveCasesPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/ActiveCasesPer1MPopulation/ActiveCasesPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/DeathsPer1MPopulation/DeathsPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/DeathsPer1MPopulation/DeathsPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/NewCases/NewCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/NewCases/NewCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/NewCasesPer1MPopulation/NewCasesPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/NewCasesPer1MPopulation/NewCasesPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/NewDeaths/NewDeaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/NewDeaths/NewDeaths.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/NewDeathsPer1MPopulation/NewDeathsPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/NewDeathsPer1MPopulation/NewDeathsPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/NewRecovered/NewRecovered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/NewRecovered/NewRecovered.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/OneCaseEveryXPeople/OneCaseEveryXPeople.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/OneCaseEveryXPeople/OneCaseEveryXPeople.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/OneDeathEveryXPeople/OneDeathEveryXPeople.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/OneDeathEveryXPeople/OneDeathEveryXPeople.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/OneTestEveryXPeople/OneTestEveryXPeople.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/OneTestEveryXPeople/OneTestEveryXPeople.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/Population/Population.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/Population/Population.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/SeriousCritical/SeriousCritical.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/SeriousCritical/SeriousCritical.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TestsPer1MPopulation/TestsPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TestsPer1MPopulation/TestsPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TotalCases/TotalCases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TotalCases/TotalCases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TotalCasesPer1MPopulation/TotalCasesPer1MPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TotalCasesPer1MPopulation/TotalCasesPer1MPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TotalDeaths/TotalDeaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TotalDeaths/TotalDeaths.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TotalRecovered/TotalRecovered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TotalRecovered/TotalRecovered.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldNR/TotalTests/TotalTests.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WorldNR/TotalTests/TotalTests.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,34 +16,34 @@
     <session id="452383609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="862" />
+          <entry key="py" value="1517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="862" />
+          <entry key="Python" value="1517" />
         </counts>
       </usages-collector>
     </session>
@@ -107,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_cases_bar_char2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="246">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -117,10 +75,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_cases_line_chart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="777">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -148,6 +118,7 @@
         <option value="$PROJECT_DIR$/new_cases_bar_chart.py" />
         <option value="$PROJECT_DIR$/new_cases_bar_char2.py" />
         <option value="$PROJECT_DIR$/module.py" />
+        <option value="$PROJECT_DIR$/new_cases_line_chart.py" />
       </list>
     </option>
   </component>
@@ -189,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_cases_bar_char2">
+  <component name="RunManager" selected="Python.new_cases_line_chart">
     <configuration name="new_cases_bar_char2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COVID19Update" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,12 +203,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="new_cases_line_chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COVID19Update" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_cases_line_chart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.new_cases_bar_chart" />
       <item itemvalue="Python.new_cases_bar_char2" />
+      <item itemvalue="Python.new_cases_line_chart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.new_cases_line_chart" />
         <item itemvalue="Python.new_cases_bar_char2" />
         <item itemvalue="Python.new_cases_bar_chart" />
       </list>
@@ -258,14 +252,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.056651816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17823042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32986626" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -292,20 +287,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/new_cases_bar_char2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="246">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module.py">
+    <entry file="file://$PROJECT_DIR$/new_cases_line_chart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="225">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

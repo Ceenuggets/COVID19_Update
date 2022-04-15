@@ -7,15 +7,27 @@ def sort_names(new_cases):
 
 
 def get_cases(new_cases, chosen_name):
-
     country = new_cases[new_cases['Country_Other'] == chosen_name]
+    country = country.copy()
+    country.fillna(0, inplace=True)
+    country = country.replace("[+,]", "", regex=True)
     country_total_per_day = []
     for date in get_dates(new_cases):
-        total = country[date].str.replace('+', '', regex=False).str.replace(',', '', regex=False).fillna(0).astype(int)
+        total = country[date]
         country_total_per_day.append(int(total))
 
     return country_total_per_day
 
+#
+# def get_cases(new_cases, chosen_name):
+#
+#     country = new_cases[new_cases['Country_Other'] == chosen_name]
+#     country_total_per_day = []
+#     for date in get_dates(new_cases):
+#         total = country[date].str.replace('+', '', regex=False).str.replace(',', '', regex=False).fillna(0).astype(int)
+#         country_total_per_day.append(int(total))
+#
+#     return country_total_per_day
 
 def get_dates(new_cases):
     dates = new_cases.columns.to_list()
