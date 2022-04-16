@@ -26,7 +26,7 @@ app.layout = dbc.Container([
     html.Div(id='output_string'),
 
     dcc.Graph('coutput_graph')
-    ])
+    ],fluid=True,)
 @app.callback(
     # Output('output_string', 'children'),
     Output('coutput_graph', 'figure'),
@@ -60,7 +60,7 @@ def group_daily_cases(name):
     #     print(case)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8115)
 
 
 # print(dates)
